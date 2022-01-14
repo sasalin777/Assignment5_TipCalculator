@@ -14,6 +14,13 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func tipPercentageTextField(_ sender: UITextField) {
+    }
+    @IBOutlet var tipAmountLabel: UILabel!
+    @IBAction func billAmountTextField(_ sender: UITextField) {
+    }
+    
+    @IBAction func CalculateTip(_ sender: UIButton) {
+    }
 }
 
